@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B0F6665258F333400FAABC6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0F6664258F333400FAABC6 /* NetworkManager.swift */; };
 		5B881E8024D16AEF0018DE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B881E7F24D16AEF0018DE14 /* AppDelegate.swift */; };
 		5B881E8224D16AEF0018DE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B881E8124D16AEF0018DE14 /* SceneDelegate.swift */; };
 		5B881E8424D16AEF0018DE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B881E8324D16AEF0018DE14 /* ViewController.swift */; };
@@ -33,10 +32,12 @@
 		5B881EB924D16B180018DE14 /* DebugFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B881EA624D16B180018DE14 /* DebugFunc.swift */; };
 		5B881EBA24D16B180018DE14 /* Class+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B881EA724D16B180018DE14 /* Class+Extension.swift */; };
 		5B881EBB24D16B180018DE14 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B881EA824D16B180018DE14 /* Array+Extension.swift */; };
+		5B8FC09F25FE0E0300A14431 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FC09C25FE0E0300A14431 /* NetworkManager.swift */; };
+		5B8FC0A025FE0E0300A14431 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FC09D25FE0E0300A14431 /* NetworkProtocol.swift */; };
+		5B8FC0A125FE0E0300A14431 /* NetworkSimpleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FC09E25FE0E0300A14431 /* NetworkSimpleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B0F6664258F333400FAABC6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5B881E7C24D16AEF0018DE14 /* SwiftExtesnion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtesnion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B881E7F24D16AEF0018DE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B881E8124D16AEF0018DE14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,9 @@
 		5B881EA624D16B180018DE14 /* DebugFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugFunc.swift; sourceTree = "<group>"; };
 		5B881EA724D16B180018DE14 /* Class+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Class+Extension.swift"; sourceTree = "<group>"; };
 		5B881EA824D16B180018DE14 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		5B8FC09C25FE0E0300A14431 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5B8FC09D25FE0E0300A14431 /* NetworkProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		5B8FC09E25FE0E0300A14431 /* NetworkSimpleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSimpleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +115,7 @@
 		5B881E9324D16B180018DE14 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5B0F6664258F333400FAABC6 /* NetworkManager.swift */,
+				5B8FC09A25FE0DDE00A14431 /* Network */,
 				5B881EA024D16B180018DE14 /* String */,
 				5B881E9524D16B180018DE14 /* UIImage */,
 				5B881E9424D16B180018DE14 /* UIApplication+Extension.swift */,
@@ -149,6 +153,16 @@
 				5B881EA524D16B180018DE14 /* String+Emoji.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		5B8FC09A25FE0DDE00A14431 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B8FC09C25FE0E0300A14431 /* NetworkManager.swift */,
+				5B8FC09D25FE0E0300A14431 /* NetworkProtocol.swift */,
+				5B8FC09E25FE0E0300A14431 /* NetworkSimpleData.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0F6665258F333400FAABC6 /* NetworkManager.swift in Sources */,
+				5B8FC09F25FE0E0300A14431 /* NetworkManager.swift in Sources */,
 				5B881E8424D16AEF0018DE14 /* ViewController.swift in Sources */,
 				5B881EB824D16B180018DE14 /* String+Emoji.swift in Sources */,
 				5B881EB624D16B180018DE14 /* String+Regex.swift in Sources */,
@@ -233,6 +247,7 @@
 				5B881EB724D16B180018DE14 /* Regex.swift in Sources */,
 				5B881EB024D16B180018DE14 /* Bundle+Extension.swift in Sources */,
 				5B881EB224D16B180018DE14 /* Notification+Enum.swift in Sources */,
+				5B8FC0A125FE0E0300A14431 /* NetworkSimpleData.swift in Sources */,
 				5B881EB124D16B180018DE14 /* UINavigationController+Backgound.swift in Sources */,
 				5B881EAE24D16B180018DE14 /* UIView+Extension.swift in Sources */,
 				5B881E8024D16AEF0018DE14 /* AppDelegate.swift in Sources */,
@@ -242,6 +257,7 @@
 				5B881EAA24D16B180018DE14 /* UIImage+Gif.swift in Sources */,
 				5B881EB424D16B180018DE14 /* String+Bounds.swift in Sources */,
 				5B881EB924D16B180018DE14 /* DebugFunc.swift in Sources */,
+				5B8FC0A025FE0E0300A14431 /* NetworkProtocol.swift in Sources */,
 				5B881EBA24D16B180018DE14 /* Class+Extension.swift in Sources */,
 				5B881E8224D16AEF0018DE14 /* SceneDelegate.swift in Sources */,
 				5B881EAF24D16B180018DE14 /* UIColor+Hex.swift in Sources */,
